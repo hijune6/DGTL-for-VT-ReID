@@ -7,12 +7,14 @@ Pytorch code for "Strong but Simple Baseline with Dual-Granularity Triplet Loss 
 - Experiments on RegDB and SYSU-MM01 datasets show that our DGTL can improve the VT-ReID performance with only the global features by large margins, which can be a strong VT-ReID baseline to boost the future research with high quality. 
 
 ### Results
-       | V->T
-----  | ----------
-Dataset| Rank1  | mAP 
- ---- | ----- | ------  |
- RegDB | 83.92% | 73.78% 
- SYSU-MM01  | 57.34% | 55.13% 
+       
+
+Dataset| Rank1  | mAP | Rank1  | mAP 
+ ---- | ----- | ------  |----- | ------  |
+       | V->T  |        | T->V  |        
+ RegDB | 83.92% | 73.78% | 81.59% | 71.65
+       | all search  |        | indoor search  |        
+ SYSU-MM01  | 57.34% | 55.13%  | 63.11% | 69.20%
  
 
 ### Usage
