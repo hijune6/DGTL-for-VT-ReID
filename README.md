@@ -1,4 +1,4 @@
-# Strong but simple baseline with dual-granularity triplet loss for VT Re-ID
+# Strong but simple baseline with dual-granularity triplet loss for VT-ReID
 Pytorch code for "Strong but Simple Baseline with Dual-Granularity Triplet Loss for Visible-Thermal Person Re-Identification"[(arxiv)](https://arxiv.org/abs/2008.06223).
 
 ### Highlights
