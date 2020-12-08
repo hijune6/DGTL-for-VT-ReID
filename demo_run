@@ -1,0 +1,10 @@
+python train.py --dataset regdb --lr 0.1 --gpu 0 --bpool max --cpool max --hcloss HcTri
+
+
+python train.py --dataset sysu --lr 0.1 --batch-size 6 --num_pos 8 --gpu 1 --bpool avg --cpool max --hcloss HcTri --margin_hc 0.5
+
+
+
+python test.py --dataset regdb --bpool max --cpool max --fuse sum --gpu 0 #--tvsearch
+
+python test.py --dataset sysu --bpool avg --cpool max --fuse sum --gpu 0  --mode all  # indoor
