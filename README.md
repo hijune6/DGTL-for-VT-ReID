@@ -11,9 +11,9 @@ Pytorch code for "Strong but Simple Baseline with Dual-Granularity Triplet Loss 
 
 |Dataset| Rank1  | mAP | Rank1  | mAP |
 | :-----: | -----: | :------  |-----: | :------ |
-|      | V->  | T      | T->    | V |
+|      |   visible to|thermal      |   thermal to|visible  |
 | RegDB | 83.92% | 73.78% | 81.59% | 71.65%  |
-|      | all   | search      | indoor    |serach     |
+|      |   all|search      |   indoor|serach     |
 | SYSU-MM01  | 57.34% | 55.13%  | 63.11% | 69.20% |
  
 
