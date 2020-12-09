@@ -35,7 +35,7 @@ python train.py --dataset sysu --lr 0.1 --batch-size 6 --num_pos 8 --gpu 1 --bpo
 
 ### 4. Citation
 
-Please kindly cite the following papers in your publications if it helps your research:
+Please kindly cite the following paper in your publications if it helps your research:
 ```
 @article{Liu2020ParametersSE,
   author={Haijun Liu and Xiaoheng Tan and Xichuan Zhou},
