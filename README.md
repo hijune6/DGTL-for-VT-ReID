@@ -1,5 +1,5 @@
 # Strong but simple baseline with dual-granularity triplet loss for VT-ReID
-Pytorch code for "Strong but Simple Baseline with Dual-Granularity Triplet Loss for Visible-Thermal Person Re-Identification"[(arxiv)]().
+Pytorch code for "Strong but Simple Baseline with Dual-Granularity Triplet Loss for Visible-Thermal Person Re-Identification"[(arxiv)](https://arxiv.org/abs/2012.05010).
 
 ### Highlights
 - Our proposed dual-granularity triplet loss well organizes the sample-based triplet loss and center-based triplet loss in a hierarchical fine to coarse granularity manner, just with some simple configurations of typical operations, such as pooling and batch normalization.
