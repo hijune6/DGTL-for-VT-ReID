@@ -37,11 +37,24 @@ python train.py --dataset sysu --lr 0.1 --batch-size 6 --num_pos 8 --gpu 1 --bpo
 
 Please kindly cite the following paper in your publications if it helps your research:
 ```
-@article{Liu2020ParametersSE,
-  author={Haijun Liu and Xiaoheng Tan and Xichuan Zhou},
-  journal={IEEE TMM},
-  title={Parameter Sharing Exploration and Hetero-center Triplet Loss for Visible-Thermal Person Re-Identification},
+@article{liu2020parameter,
+  title={Parameter sharing exploration and hetero-center triplet loss for visible-thermal person re-identification},
+  author={Liu, Haijun and Tan, Xiaoheng and Zhou, Xichuan},
+  journal={IEEE Transactions on Multimedia},
+  volume={23},
+  pages={4414--4425},
   year={2020},
-  doi={10.1109/TMM.2020.3042080}
-  }
+  publisher={IEEE}
+}
+```
+```
+@article{liu2021strong,
+  title={Strong but simple baseline with dual-granularity triplet loss for visible-thermal person re-identification},
+  author={Liu, Haijun and Chai, Yanxia and Tan, Xiaoheng and Li, Dong and Zhou, Xichuan},
+  journal={IEEE Signal Processing Letters},
+  volume={28},
+  pages={653--657},
+  year={2021},
+  publisher={IEEE}
+}
 ```
