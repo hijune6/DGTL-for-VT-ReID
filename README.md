@@ -58,3 +58,13 @@ Please kindly cite the following paper in your publications if it helps your res
   publisher={IEEE}
 }
 ```
+```
+@article{Tan2022AFS,
+  title={A Fourier-Based Semantic Augmentation for Visible-Thermal Person Re-Identification},
+  author={Xiaoheng Tan and Yanxia Chai and Fenglei Chen and Haijun Liu},
+  journal={IEEE Signal Processing Letters},
+  year={2022},
+  volume={29},
+  pages={1684-1688}
+}
+```
